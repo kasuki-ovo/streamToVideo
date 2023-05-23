@@ -1,0 +1,23 @@
+{
+  "name": "default",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+		"start": "node serve/index.js",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+		"fluent-ffmpeg": "^2.1.2",
+		"flv.js": "^1.6.2",
+    "vue": "^2.6.10",
+		"websocket-stream": "^5.5.2",
+		"ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
