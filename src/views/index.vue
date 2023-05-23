@@ -20,7 +20,7 @@
 	  data() {
 	    return {
 	      flvPlayer: null,
-	      url: 'rtmp://ns8.indexforce.com/home/mystream'
+	      url: 'rtmp://ns8.indexforce.com/home/mystream' // 这个是外网链接，速度比较慢
 	    };
 	  },
 	  beforeDestroy() {
