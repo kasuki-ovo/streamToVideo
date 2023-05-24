@@ -35,7 +35,7 @@
 			},
 			// 判断是否是推流链接
 			isPushUrl(url) {
-			  const RegExp = /^(rtmp|rtsp:\/\/)(\S+\/)+\S+$/;
+			  const RegExp = /^((rtmp|rtsp):\/\/)(\S+\/)+\S+$/;
 			  return RegExp.test(url);
 			},
 	    // 创建video
