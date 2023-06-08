@@ -20,7 +20,7 @@
 	  data() {
 	    return {
 	      flvPlayer: null,
-	      url: 'rtmp://ns8.indexforce.com/home/mystream' // 这个是外网链接，速度比较慢
+	      url: 'rtmp://ns8.indexforce.com/home/mystream' // 这个是外网链接，速度比较慢，可以换cctv央视网: https://cctvwbndbd.a.bdydns.com/cctvwbnd/cctv1_2/index.m3u8?BR=single
 	    };
 	  },
 	  beforeDestroy() {
@@ -33,9 +33,9 @@
 					this.play()
 				}
 			},
-			// 判断是否是推流链接
+			// 判断地址是否正确
 			isPushUrl(url) {
-			  const RegExp = /^((rtmp|rtsp):\/\/)(\S+\/)+\S+$/;
+			  const RegExp = /^((rtmp|rtsp|https):\/\/)(\S+\/)+\S+$/;
 			  return RegExp.test(url);
 			},
 	    // 创建video
