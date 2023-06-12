@@ -20,7 +20,7 @@
 	  data() {
 	    return {
 	      flvPlayer: null,
-	      url: 'rtmp://ns8.indexforce.com/home/mystream' // 这个是外网链接，速度比较慢，可以换cctv央视网: https://cctvwbndbd.a.bdydns.com/cctvwbnd/cctv1_2/index.m3u8?BR=single
+	      url: 'rtmp://ns8.indexforce.com/home/mystream' // 这个是外网链接，速度比较慢，可以换cctv央视网: https://cctvwbndbd.a.bdydns.com/cctvwbnd/cctv1_2/index.m3u8?BR=single，m3u8格式视频：https://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8
 	    };
 	  },
 	  beforeDestroy() {
