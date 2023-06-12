@@ -27,7 +27,8 @@ function handleConnection (ws, req) {
       console.log('Stream end!')
       stream.end()
     })
-    .outputFormat('flv').videoCodec('copy').noAudio()
+    .outputFormat('flv').videoCodec('copy')
+    // .outputFormat('flv').videoCodec('copy').noAudio() // 取消音频输出
 
   stream.on('close', function () {
     ffmpegCommand.kill('SIGKILL')
