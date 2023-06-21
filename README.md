@@ -1,7 +1,7 @@
 # streamToVideo
 
 #### 介绍
-rtsp/rtmp视频流媒体播放解决方案，使用WebSocket服务和ffmpeg把rtsp/rtmp视频流实时转为flv格式发送给前端，再使用flv.js播放
+rtsp/rtmp/m3u8视频流媒体播放解决方案，使用WebSocket服务和ffmpeg把rtsp/rtmp/m3u8视频流实时转为flv格式发送给前端，再使用flv.js播放
 
 #### 软件架构
 Vue2、[ffmpeg](https://www.ffmpeg.org/download.html)
